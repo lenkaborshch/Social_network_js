@@ -1,0 +1,53 @@
+.dialogs {
+    display: flex;
+}
+
+.dialogsItems {
+    padding: 10px;
+    width: 25%;
+}
+
+.messages {
+    width: 75%;
+}
+
+.textMessages {
+    margin: 10px;
+    height: 450px;
+    overflow-y: scroll;
+    border: 2px solid black;
+}
+
+.sendMessage {
+    padding: 5px;
+}
+
+.sendMessage textarea {
+    width: 350px;
+    height: 80px;
+}
+
+.me {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.friend {
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.me img {
+    width: 50px;
+    height: 55px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.friend img {
+    width: 50px;
+    border-radius: 50px;
+    vertical-align: middle;
+}

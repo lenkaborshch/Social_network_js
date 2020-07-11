@@ -1,0 +1,20 @@
+.dialog .active {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.dialog a {
+    text-decoration: none;
+    color: black;
+}
+
+.avaFriend img{
+    vertical-align: middle;
+    height: 80px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.dialog {
+    margin: 10px;
+}

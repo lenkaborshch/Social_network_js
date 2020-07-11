@@ -1,0 +1,16 @@
+.cover img {
+    width: 975px;
+    margin-bottom: 5px;
+    box-shadow: inset 2px 2px 10px whitesmoke, 1px 1px 10px whitesmoke;
+}
+
+.descriptionBlock {
+    margin: 10px;
+}
+
+.descriptionBlock img {
+    padding: 2px;
+    border: 2px solid black;
+    height: 200px;
+    background-color: floralwhite;
+}

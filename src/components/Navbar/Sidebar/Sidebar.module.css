@@ -1,0 +1,11 @@
+.avaFriends img {
+    width: 50px;
+    border: double pink;
+}
+
+.friends {
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}

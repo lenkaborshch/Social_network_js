@@ -1,0 +1,33 @@
+.nav {
+    grid-area: n;
+    position: static;
+    background-color: rgba(177,79,255,0.55);
+}
+
+.navMenu {
+    padding: 15px;
+}
+
+.item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.item a.active {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+p.textSidebar {
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: overline;
+    margin-top: 80px;
+    cursor: pointer;
+}

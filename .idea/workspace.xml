@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f77535dc-be86-4a98-9e76-1dcd0ad86e2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/react_project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/cat.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/ava.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/buba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/busya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/dad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/dashka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/enot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/forest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/freud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/kitty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/owl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/music/antitila.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dVWVJou2OCzXHnQCmI9mua1tV7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\fav.ico" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile\MyPosts\Post" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\public" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile\ProfileInfo" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Settings" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\News" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f77535dc-be86-4a98-9e76-1dcd0ad86e2d" name="Default Changelist" comment="" />
+      <created>1592510763546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592510763546</updated>
+      <workItem from="1592510781502" duration="64000" />
+      <workItem from="1592551863968" duration="874000" />
+      <workItem from="1592563472768" duration="8916000" />
+      <workItem from="1592742080243" duration="10915000" />
+      <workItem from="1592918745250" duration="10075000" />
+      <workItem from="1592929146026" duration="3610000" />
+      <workItem from="1592995810555" duration="20553000" />
+      <workItem from="1593097997760" duration="6494000" />
+      <workItem from="1593250879096" duration="14444000" />
+      <workItem from="1593285245849" duration="10516000" />
+      <workItem from="1593330866460" duration="9370000" />
+      <workItem from="1593456918567" duration="2539000" />
+      <workItem from="1593621126624" duration="2687000" />
+      <workItem from="1593866133025" duration="5189000" />
+      <workItem from="1593924367167" duration="16008000" />
+      <workItem from="1594317520929" duration="13597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="307" y="42" key="#Inspections" timestamp="1592922942116">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="307" y="42" key="#Inspections/64.0.1302.768@64.0.1302.768" timestamp="1592922942116" />
+    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1594389063313">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="339" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1594389063313" />
+    <state width="1281" height="192" key="GridCell.Tab.0.bottom" timestamp="1592929069953">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1281" height="192" key="GridCell.Tab.0.bottom/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
+    <state width="1281" height="192" key="GridCell.Tab.0.center" timestamp="1592929069953">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1281" height="192" key="GridCell.Tab.0.center/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
+    <state width="1281" height="192" key="GridCell.Tab.0.left" timestamp="1592929069953">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1281" height="192" key="GridCell.Tab.0.left/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
+    <state width="1281" height="192" key="GridCell.Tab.0.right" timestamp="1592929069953">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1281" height="192" key="GridCell.Tab.0.right/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
+    <state x="523" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594389075154">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="523" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1304.768@62.0.1304.768" timestamp="1594389075154" />
+    <state x="369" y="172" key="run.anything.popup" timestamp="1593285574013">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="369" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1593285574013" />
+    <state x="371" y="172" key="run.anything.popup/64.0.1302.768@64.0.1302.768" timestamp="1592930484584" />
+    <state x="307" y="43" key="scopes" timestamp="1592924220387">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="307" y="43" key="scopes/64.0.1302.768@64.0.1302.768" timestamp="1592924220387" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1592921462482">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/64.0.1302.768@64.0.1302.768" timestamp="1592921462482" />
+  </component>
+</project>

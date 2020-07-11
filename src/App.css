@@ -1,0 +1,29 @@
+.app-wrapper {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+
+    grid-template-areas: 'h h' 'n c';
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 9fr;
+    grid-gap: 10px;
+
+    font-family: "Comic Sans MS";
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: #FAC1B9;
+}
+
+::-webkit-scrollbar{
+    width:12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgba(248,247,250,1) 0%, lightblue 32%, lightblue 62%, rgba(242,245,246,1) 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgba(248, 247, 250, 1) 0%, deepskyblue 32%, deepskyblue 62%, rgba(242, 245, 246, 1) 100%);
+}
