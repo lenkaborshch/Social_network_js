@@ -3,10 +3,7 @@ import s from "./Dialogs.module.css";
 import {BrowserRouter} from "react-router-dom";
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
-import {
-    addMessageActionCreator, sendMessageCreator,
-    updateNewMessageBodyActionCreator, updateNewMessageBodyCreator
-} from "../../redux/store";
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogsReducer";
 
 const Dialogs = (props) => {
     let state = props.store.getState().dialogsPage
