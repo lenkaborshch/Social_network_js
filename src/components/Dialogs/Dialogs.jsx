@@ -14,7 +14,7 @@ const Dialogs = (props) => {
         .map ( m => <Message message={m.message} className={m.className} src={m.src} />);
 
     let onSendMessageClick = () => {
-        props.sendMessageClick()
+        props.sendMessage()
     }
 
     let onNewMessageChange = (e) => {

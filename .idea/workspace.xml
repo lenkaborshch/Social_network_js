@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77535dc-be86-4a98-9e76-1dcd0ad86e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoreContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -40,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Navbar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,19 +50,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Navbar" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Dialogs\Message" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\redux" />
+      <recent name="C:\Users\lenka\Desktop\react\react_project1\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Dialogs" />
       <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\DialogsContainer" />
       <recent name="C:\Users\lenka\Desktop\react\react_project1\fav.ico" />
       <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components" />
       <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile\MyPosts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Dialogs\Message" />
-      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\components\Profile\MyPosts" />
-      <recent name="C:\Users\lenka\Desktop\react\react_project1\src\redux" />
-      <recent name="C:\Users\lenka\Desktop\react\react_project1\src" />
-      <recent name="C:\Users\lenka\Desktop\react\react_project1\public" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,7 +94,8 @@
       <workItem from="1594473626024" duration="4266000" />
       <workItem from="1594542392575" duration="4603000" />
       <workItem from="1594639354211" duration="3626000" />
-      <workItem from="1594649125825" duration="5884000" />
+      <workItem from="1594649125825" duration="6046000" />
+      <workItem from="1594808797485" duration="4945000" />
     </task>
     <servers />
   </component>
@@ -129,10 +131,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="523" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1304.768@62.0.1304.768" timestamp="1594389075154" />
-    <state x="369" y="172" key="run.anything.popup" timestamp="1593285574013">
+    <state x="369" y="172" key="run.anything.popup" timestamp="1594809514050">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="369" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1593285574013" />
+    <state x="369" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1594809514050" />
     <state x="371" y="172" key="run.anything.popup/64.0.1302.768@64.0.1302.768" timestamp="1592930484584" />
     <state x="307" y="43" key="scopes" timestamp="1592924220387">
       <screen x="64" y="0" width="1302" height="768" />
