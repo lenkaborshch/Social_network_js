@@ -1,6 +1,5 @@
 import React from "react";
 import antitila from "./../../music/antitila.mp3";
-import s from "./Music.module.css";
 
 const Music = () => {
     return (

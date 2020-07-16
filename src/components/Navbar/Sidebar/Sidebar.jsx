@@ -5,7 +5,7 @@ const Sidebar = (props) => {
     return (
         <div className={s.friends}>
             <div className={s.avaFriends}>
-                <img src={props.src} />
+                <img src={props.src} alt={props.name} />
             </div>
             <div>
                 { props.name }

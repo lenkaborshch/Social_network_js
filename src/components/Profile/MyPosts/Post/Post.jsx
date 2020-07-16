@@ -5,7 +5,7 @@ import enot from "./../../../../img/enot.jpg"
 const Post = (props) => {
     return (
         <div className={s.item}>
-            <img src={enot} />
+            <img src={enot} alt="image for post" />
             { props.message }
             <div>
                 <span> {props.likesCount} like</span>

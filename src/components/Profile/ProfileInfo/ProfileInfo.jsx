@@ -7,10 +7,10 @@ const ProfileInfo = () => {
     return (
         <div>
             <div className={s.cover}>
-                <img src={sea} />
+                <img src={sea} alt="wrapper"/>
             </div>
             <div className={s.descriptionBlock}>
-                <img src={me} />
+                <img src={me} alt="avatar" />
                 + description
             </div>
         </div>
