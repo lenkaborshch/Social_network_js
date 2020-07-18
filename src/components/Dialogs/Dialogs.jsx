@@ -11,7 +11,7 @@ const Dialogs = (props) => {
 
 
     let messagesElements = props.dialogsPage.messages
-        .map ( m => <Message message={m.message} className={m.className} src={m.src} />);
+        .map ( m => <Message message={m.message} className={m.className} src={m.src} key={m.id} />);
 
     let onSendMessageClick = () => {
         props.sendMessage()
