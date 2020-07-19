@@ -3,9 +3,7 @@ import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialo
 import Dialogs from "./Dialogs";
 import {connect} from "react-redux";
 
-let mapStateToProps = (state) => ({
-        dialogsPage: state.dialogsPage
-    })
+let mapStateToProps = (state) => ({ dialogsPage: state.dialogsPage })
 
 let mapDispatchToProps = (dispatch) => ({
         sendMessage: () => {

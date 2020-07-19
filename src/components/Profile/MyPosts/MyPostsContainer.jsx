@@ -5,18 +5,18 @@ import {connect} from "react-redux";
 
 
 let mapStateToProps = (state) => ({
-        posts: state.profilePage.posts,
-        newPostText: state.profilePage.newPostText
-    })
+    posts: state.profilePage.posts,
+    newPostText: state.profilePage.newPostText
+})
 
 let mapDispatchToProps = (dispatch) => ({
-        addPost: () => {
-            dispatch(addPostActionCreator())
-        },
-        updateNewPostText: (text) => {
-            dispatch(updateNewPostTextActionCreator(text))
-        }
-    })
+    addPost: () => {
+        dispatch(addPostActionCreator())
+    },
+    updateNewPostText: (text) => {
+        dispatch(updateNewPostTextActionCreator(text))
+    }
+})
 
 const MyPostsContainer = connect(mapStateToProps, mapDispatchToProps)(MyPosts)
 
