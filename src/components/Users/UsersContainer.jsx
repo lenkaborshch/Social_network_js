@@ -17,8 +17,7 @@ let mapDispatchToProps = (dispatch) => ({
         setUsers: (users) => {
             dispatch(setUsersAC(users))
         }
-    }
-)
+    })
 
 
 let UsersContainer = connect(mapStateToProps, mapDispatchToProps)(Users)
