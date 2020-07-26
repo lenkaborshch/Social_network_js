@@ -3,9 +3,7 @@ import s from "./Users.module.css"
 import * as axios from "axios";
 
 class Users extends React.Component {
-    constructor(props) {
-        super(props);
-        alert("jcf")
+    componentDidMount () {
         axios.get("https://social-network.samuraijs.com/api/1.0/users?count=10&page=2")
             .then(response => {
                 this.props.setUsers(response.data.items)
