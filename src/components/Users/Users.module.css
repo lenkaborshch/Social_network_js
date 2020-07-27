@@ -1,3 +1,9 @@
 .userPhoto {
     width: 100px
 }
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkviolet;
+}
