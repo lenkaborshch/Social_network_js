@@ -1,14 +1,13 @@
 import React from "react";
-import antitila from "./../../music/antitila.mp3";
+import ReactPlayer from "react-player";
+/*import antitila from "./../../music/antitila.mp3";*/
 
 const Music = () => {
     return (
         <div>
             Антитіла
             <div>
-                <audio controls="controls">
-                    <source src={antitila} type="audio/mp3" />
-                </audio>
+                <ReactPlayer url='https://www.youtube.com/watch?v=2BNoM8eveTU' controls={true}/>
             </div>
 
         </div>
