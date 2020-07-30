@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77535dc-be86-4a98-9e76-1dcd0ad86e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/usersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,7 @@
       <workItem from="1595974025605" duration="2439000" />
       <workItem from="1596031709005" duration="2309000" />
       <workItem from="1596059537472" duration="21000" />
-      <workItem from="1596114361551" duration="1174000" />
+      <workItem from="1596114361551" duration="2816000" />
     </task>
     <servers />
   </component>
@@ -154,25 +153,25 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="139" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1596059556480" />
-    <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1596037335030">
+    <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1596116892938">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1596037335030" />
+    <state width="1283" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1596116892938" />
     <state width="1281" height="192" key="GridCell.Tab.0.bottom/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
-    <state width="1283" height="192" key="GridCell.Tab.0.center" timestamp="1596037335030">
+    <state width="1283" height="192" key="GridCell.Tab.0.center" timestamp="1596116892937">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1596037335030" />
+    <state width="1283" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1596116892937" />
     <state width="1281" height="192" key="GridCell.Tab.0.center/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
-    <state width="1283" height="192" key="GridCell.Tab.0.left" timestamp="1596037335030">
+    <state width="1283" height="192" key="GridCell.Tab.0.left" timestamp="1596116892936">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1596037335030" />
+    <state width="1283" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1596116892936" />
     <state width="1281" height="192" key="GridCell.Tab.0.left/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
-    <state width="1283" height="192" key="GridCell.Tab.0.right" timestamp="1596037335030">
+    <state width="1283" height="192" key="GridCell.Tab.0.right" timestamp="1596116892937">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1596037335030" />
+    <state width="1283" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1596116892937" />
     <state width="1281" height="192" key="GridCell.Tab.0.right/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
     <state x="523" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594389075154">
       <screen x="62" y="0" width="1304" height="768" />
