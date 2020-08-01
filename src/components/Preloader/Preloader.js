@@ -1,8 +1,10 @@
-import preload from "../../img/25.gif";
 import React from "react";
+import s from "./Preloader.module.css"
 
 let Preloader = (props) => {
-   return <img src={preload}/>
+   return <div className={s.preloader}>
+      <div className={s.spinner}></div>
+   </div>
 }
 
 export default Preloader;
