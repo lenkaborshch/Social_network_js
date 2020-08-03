@@ -52,4 +52,4 @@ export const updateNewPostText = (text) => ({
 
 export const setUserProfile = (profile) => ({ type: SET_USER_PROFILE, profile })
 
-export default profileReducer
+export default profileReducer;

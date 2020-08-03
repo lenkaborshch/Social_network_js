@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77535dc-be86-4a98-9e76-1dcd0ad86e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reduxStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -141,7 +139,9 @@
       <workItem from="1596031709005" duration="2309000" />
       <workItem from="1596059537472" duration="21000" />
       <workItem from="1596114361551" duration="3084000" />
-      <workItem from="1596221133887" duration="9978000" />
+      <workItem from="1596221133887" duration="10614000" />
+      <workItem from="1596392708918" duration="4413000" />
+      <workItem from="1596465490360" duration="6376000" />
     </task>
     <servers />
   </component>
@@ -161,25 +161,25 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="139" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1596059556480" />
-    <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1596221177716">
+    <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1596465915916">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1596221177716" />
+    <state width="1283" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1596465915916" />
     <state width="1281" height="192" key="GridCell.Tab.0.bottom/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
-    <state width="1283" height="192" key="GridCell.Tab.0.center" timestamp="1596221177716">
+    <state width="1283" height="192" key="GridCell.Tab.0.center" timestamp="1596465915916">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1596221177716" />
+    <state width="1283" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1596465915916" />
     <state width="1281" height="192" key="GridCell.Tab.0.center/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
-    <state width="1283" height="192" key="GridCell.Tab.0.left" timestamp="1596221177716">
+    <state width="1283" height="192" key="GridCell.Tab.0.left" timestamp="1596465915916">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1596221177716" />
+    <state width="1283" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1596465915916" />
     <state width="1281" height="192" key="GridCell.Tab.0.left/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
-    <state width="1283" height="192" key="GridCell.Tab.0.right" timestamp="1596221177716">
+    <state width="1283" height="192" key="GridCell.Tab.0.right" timestamp="1596465915916">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1596221177716" />
+    <state width="1283" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1596465915916" />
     <state width="1281" height="192" key="GridCell.Tab.0.right/64.0.1302.768@64.0.1302.768" timestamp="1592929069953" />
     <state x="523" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594389075154">
       <screen x="62" y="0" width="1304" height="768" />
