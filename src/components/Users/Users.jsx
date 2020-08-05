@@ -1,8 +1,7 @@
 import React from "react"
 import s from "./Users.module.css"
 import {NavLink} from "react-router-dom";
-import * as axios from "axios";
-import {usersAPI} from "../../api/api";
+import {followAPI} from "../../api/api";
 
 const Users = (props) => {
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
@@ -36,18 +35,22 @@ const Users = (props) => {
                         </div>
                         <div>
                             {u.followed
-                                ? <button onClick={() => {
-                                    usersAPI.unfollow(u.id).then(data => {
+                                ? <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
+                                    props.toggleFollowingProgress(true, u.id)
+                                    followAPI.unfollow(u.id).then(data => {
                                             if (data.resultCode === 0) {
                                                 props.unfollow(u.id)
                                             }
+                                        props.toggleFollowingProgress(false, u.id)
                                         });
                                 }}> Unfollow </button>
-                                : <button onClick={() => {
-                                    usersAPI.follow(u.id).then(data => {
+                                : <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
+                                    props.toggleFollowingProgress(true, u.id)
+                                    followAPI.follow(u.id).then(data => {
                                             if (data.resultCode === 0) {
                                                 props.follow(u.id)
                                             }
+                                        props.toggleFollowingProgress(false, u.id)
                                         });
                                 }}> Follow </button>}
                         </div>
