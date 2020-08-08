@@ -1,3 +1,6 @@
+import {authAPI, followAPI} from "../api/api";
+import {toggleFollowingProgress, unfollowSuccess} from "./usersReducer";
+
 const SET_USER_DATA = "SET_USER_DATA";
 const TOGGLE_IS_FETCHING = "TOGGLE_IS_FETCHING";
 
@@ -27,7 +30,21 @@ const authReducer = (state = initialState, action) => {
     }
 }
 
-export const setAuthUserData = (userId, email, login) => ({ type: SET_USER_DATA, data: {userId, email, login} });
+export const setAuthUserData = (userId, email, login) => ({ type: SET_USER_DATA, data: {userId, email, login} })
 export const toggleIsFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching})
+
+export const getAuthUserData = () => {
+    return (dispatch) => {
+        dispatch(toggleIsFetching(true));
+        authAPI.authMe()
+            .then(data => {
+                dispatch(toggleIsFetching(false));
+                if (data.resultCode === 0) {
+                    let {id, email, login} = data.data;
+                    dispatch(setAuthUserData(id, email, login));
+                }
+            });
+    }
+}
 
 export default authReducer;
